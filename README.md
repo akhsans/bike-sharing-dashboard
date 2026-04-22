@@ -44,7 +44,7 @@ streamlit run dashboard.py
 
 ## ⚠️ Catatan
 
-* Pastikan file dataset (`main_data.csv`) ada di folder `data/`
+* Pastikan file dataset (`main_data.csv`) ada di folder yang sama dengan dashboard.py
 * Pastikan semua library sudah terinstall
 
 ---
