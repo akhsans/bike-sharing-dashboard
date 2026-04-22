@@ -4,63 +4,33 @@ Dashboard ini dibuat untuk menganalisis data **Bike Sharing** menggunakan Python
 
 ---
 
-## 🚀 Cara Menjalankan Dashboard
+## ⚙️ Setup Environment
 
-Ikuti langkah-langkah berikut untuk menjalankan dashboard di komputer kamu:
-
-### 1. Clone Repository
-
-```bash
-git clone https://github.com/username/nama-repo.git
-cd nama-repo
+### 🔹 Setup Environment - Anaconda
 ```
-
-### 2. Install Library yang Dibutuhkan
-
-Pastikan kamu sudah install Python, lalu jalankan:
-
-```bash
+conda create --name main-ds python=3.9
+conda activate main-ds
 pip install -r requirements.txt
 ```
 
-Jika belum ada file `requirements.txt`, bisa install manual:
+---
 
-```bash
-pip install streamlit pandas matplotlib
+### 🔹 Setup Environment - Shell/Terminal
+```
+mkdir proyek_analisis_data
+cd proyek_analisis_data
+pip install pipenv
+pipenv install
+pipenv shell
+pip install -r requirements.txt
 ```
 
 ---
 
-### 3. Jalankan Dashboard
-
-```bash
+## 🚀 Run Streamlit App
+```
 streamlit run dashboard.py
 ```
-
----
-
-### 4. Buka di Browser
-
-Setelah dijalankan, dashboard akan otomatis terbuka di browser:
-
-```
-http://localhost:8501
-```
-
----
-
-## 📁 Struktur Folder
-
-```
-project-folder/
-│
-├── dashboard.py        # File utama Streamlit
-├── data/
-│   └── main_data.csv   # Dataset
-├── README.md           # Dokumentasi
-└── requirements.txt    # Dependencies
-```
-
 ---
 
 ## 📊 Fitur Dashboard
